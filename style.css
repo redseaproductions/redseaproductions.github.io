@@ -1,0 +1,18 @@
+body
+{
+  margin: 0;
+  background-color: #111111;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navigation-bar
+{
+  background-color: #222222;
+  padding: 5%;
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
